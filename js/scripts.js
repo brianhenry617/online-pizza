@@ -5,6 +5,18 @@ var sizeArray = [];
 var topArray = [];
 var pizzaArray = [];
 
+var small = [$5.72];
+var medium = [$7.43];
+var large = [$12.99];
+
+var Pepperoni = [$2.00];
+var Pinapple = [$2.00];
+var Olives = [$2.00];
+var Onions = [$0.50];
+var Extra Pizza = [$0.25];
+var Extra Cheese = [$1.00];
+var Tomatoes = [$0.15];
+
 //Front End
 $(document).ready(function() {
   $("form#pizzaSize").forEach(function(event) {
